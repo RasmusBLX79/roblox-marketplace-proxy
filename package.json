@@ -1,0 +1,30 @@
+{
+  "name": "roblox-api-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for Roblox API requests - PLS Donate style",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js",
+    "dev": "nodemon proxy-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "roblox",
+    "api",
+    "proxy",
+    "pls-donate",
+    "gamepass"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
